@@ -17,3 +17,20 @@ bun add -D drizzle-kit
 bun add -D @types/better-sqlite3
 ```
 
+## create drozzile.config.ts and insert configuration
+```ts
+import { Config } from 'drizzle-kit'
+
+export default {
+
+  schema:"./db/schema.ts",
+  out: "./drizzle",
+  driver:"better-sqlite",
+  dbCredentials:{
+
+    url:"./sqlite.db"
+}
+
+} satisties Config
+
+
