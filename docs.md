@@ -12,4 +12,8 @@ bun add drizzle-orm better-sqlite3
 ```sh
 bun add -D drizzle-kit
 ```
+## add @types/better-sqlite3
+```sh
+bun add -D @types/better-sqlite3
+```
 
