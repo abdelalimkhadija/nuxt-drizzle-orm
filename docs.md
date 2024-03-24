@@ -34,3 +34,10 @@ export default {
 } satisties Config
 
 
+// bunx drizzle-kit generate:sqlite  => this migrate will create './drizzle' Directory
+// bunx drizzle-kit push:sqlite => This will generate the sqlite.db on the root Directory
+
+// bunx drizzle-kit studio
+
+```
+
